@@ -54,6 +54,11 @@ button:active {
           transform: scale(0.95);
 }
 
+.content-container h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
 .main-container {
   height: 100%;
   display: -webkit-box;
@@ -88,5 +93,9 @@ button:active {
 
 .button-wrapper {
   margin-bottom: 30px;
+}
+
+:root {
+  --golden-glow: #ffad00;
 }
 /*# sourceMappingURL=index.css.map */
