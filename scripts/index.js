@@ -3,7 +3,7 @@ const input = document.getElementById("input");
 const bubbleSize = {
     width: "100px",
     height: "100px",
-    background: "yellow",
+    background: "radial-gradient(circle at 30px 30px, rgb(242 255 45), #0a0303)",
     borderRadius: "50%",
 };
 
