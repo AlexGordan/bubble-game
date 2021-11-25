@@ -14,7 +14,29 @@
             <div class="header-block">
                 <h1>Try to solve this task!</h1>
                 <label id="number"></label>
+                <div class="sum-text" id="sum">
+                    <span>Your result: </span>
+                    <span>0</span>
+                </div>
                 <button id="playBtn" onclick="startPlay()">Let's play</button>
+            </div>
+        </div>
+        <div id="modal" class="general-container">
+            <div class="main-content">
+                <p id="result"></p>
+                <button onclick="closeModal()">Try again</button>
+            </div>
+        </div>
+        <div id="loader" class="main-loader">
+            <div class="lds-roller">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
         </div>
         <script src="index.js"></script>
